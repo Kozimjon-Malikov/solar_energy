@@ -16,7 +16,7 @@ html {
 
 /* header  */
 header {
-  background: url("./images/bg.jpg") no-repeat center/cover fixed;
+  background: url("/images/bg.jpg") no-repeat center/cover fixed;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -191,7 +191,7 @@ header img {
 }
 /* energy */
 .energy{
-    background: url('./images/Rectangle\ 10.jpg') no-repeat center/cover fixed;
+    background: url('/images/Rectangle\ 10.jpg') no-repeat center/cover fixed;
     height: 500px;
     margin-top: 100px;
     display: flex;
@@ -272,7 +272,7 @@ header img {
     object-position: center;
 }
 footer{
-    background: url('./images/Rectangle\ 13.png') no-repeat center/cover fixed;
+    background: url('/images/Rectangle\ 13.png') no-repeat center/cover fixed;
     min-height: 730px;
     width: 100%;
     display: flex;
