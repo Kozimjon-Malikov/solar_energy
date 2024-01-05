@@ -1,0 +1,98 @@
+@media (max-width:768px) {
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header img{
+        margin-top: 15px;
+    }
+    .content__box{
+        margin-top: 10px;
+        position: relative;
+        top: 20px;
+    }
+    .uslug__img img{
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+    }
+    .content__box h1{
+        line-height: 30px;
+    }
+    .social__icons{
+        padding: 0px 0px 20px 0px;
+    }
+    .btn__img a img{
+        max-height: 40px;
+    }
+    .station__img img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .energy{
+        margin: 20px 0px;
+        height: fit-content;
+        padding: 40px 0px;
+    }
+    .img__100{
+        width: 100%;
+    }
+    .form__data ul{
+        max-width: 100%;
+    }
+    .m_custom{
+        margin-top: 20px;
+    }
+    .tab__content{
+        margin: 10px 0px;
+    }
+    .tab__items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn__second a img{
+        max-height: 50px;
+    }
+    .left__data{
+        margin-top: 15px;
+    }
+    .slider__controller{
+        max-width: 240px;
+        margin: 15px 0px;
+    }
+    .station__data{
+        margin: 0;
+    }
+    .station__img {
+        margin: 0;
+    }
+    footer{
+        margin-top: 10px;
+        padding: 20px 0px 0px 0px;
+    }
+    .btn__footer img{
+        max-height: 40px;
+    }
+    .footer__bottom{
+        margin-top: 10px;
+    }
+
+    .footer__bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:1400px) {
+    header img{
+        margin: 0;
+    }
+}

@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-white: #fff;
+  --text-black: #303030;
+  --text-grey:#868585;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Noto Sans";
+}
+
+/* header  */
+header {
+  background: url("/images/bg.jpg") no-repeat center/cover fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+header img {
+  margin: 100px 0px 0px 0px;
+}
+.btn__img a img {
+  max-width: 307px;
+  max-height: 100px;
+}
+.content__box {
+  align-self: center;
+  margin-top: 100px;
+}
+.content__box p {
+  font-weight: 400;
+  font-size: clamp(14px, 1.5vw, 18px);
+  line-height: 24px;
+  color: var(--text-white);
+}
+.content__box h1 {
+  font-weight: 700;
+  font-size: clamp(32px, 4.5vw, 64px);
+  line-height: 87px;
+  color: var(--text-white);
+}
+.content__box h2 {
+  font-weight: 400;
+  font-size: clamp(24px, 3.5vw, 42px);
+  line-height: 57px;
+  color: var(--text-white);
+}
+.social__icons {
+  max-width: 266px;
+  padding: 0px 0px 50px 0px;
+}
+.social__icons .row a {
+  display: inline-block;
+}
+.social__icons .row a img {
+  max-width: 29px;
+  max-height: 29px;
+}
+
+/* uslugi  */
+.m_custom{
+    margin: 150px 0px 0px 0px;
+}
+.text__left{
+    max-width: 510px;
+}
+.text__left h4 {
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--text-black);
+}
+.text__left p {
+  font-size: clamp(12px, 1.2vw, 14px);
+  font-weight: 400;
+  line-height: 19px;
+  color: var(--text-black);
+}
+.uslugi h2{
+    color: var(--text-grey);
+    font-size: clamp(18px,2vw,24px);
+    font-weight: 700;
+    line-height: 32px;
+}
+
+/* ЗЕЛЕНЫЙ ТАРИФ */
+.tarif h2{
+    color: var(--text-black);
+    font-size: clamp(14px,1.5vw,18px);
+    font-weight: 700;
+    line-height: 24px;
+    max-width: 600px;
+}
+.tarif img{
+    max-width: 600px;
+    max-height: 670px;
+}
+.tab__elems ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+
+}
+.tab__elems ul li{
+    padding: 0px 20px 0px 0px;
+}
+.tab__elems ul li a{
+    color: var(--text-black);
+    font-size: clamp(14px,1.5vw,18px);
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.tab__elems ul li:first-child a{
+    border-bottom: 1px solid var(--text-black);
+}
+.tab__items{
+    display: flex;
+    gap: 2rem;
+    margin: 5px 0px;
+}
+.tab__items>img{
+    width: 235px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.tab__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tab__data p{
+    color: var(--text-black);
+    font-size: clamp(12px,1.3vw,14px);
+    font-weight: 400;
+    line-height: 19px;
+    max-width: 235px;
+}
+.tab__controls{
+    display: flex;
+    gap: 1rem;
+    justify-self: flex-end;
+}
+.tab__controls img{
+    width: 40px;
+}
+.tab__content {
+    margin-top: 110px;
+}
+.uslug__img img{
+    max-width: 600px;
+    max-height: 525px!important;
+}
+.inactive{
+    display: none;
+}
+.active{
+    display: flex;
+}
+.prev,.next{
+    cursor: pointer;
+}
+.tarif__data{
+    margin-top: 90px;
+}
+.tarif__elems h4{
+    color: var(--text-black);
+    font-size: clamp(14px,1.3vw,18px);
+    font-weight: 700;
+    line-height: 24px;
+    max-width: 235px;
+}
+.tarif__elems p{
+    color: var(--text-black);
+    font-size: clamp(10px,1.3vw,14px);
+    font-weight: 400;
+    line-height: 19px;
+    max-width: 235px;
+}
+/* energy */
+.energy{
+    background: url('/images/Rectangle\ 10.jpg') no-repeat center/cover fixed;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.energy h1{
+    color: var(--text-white);
+    font-size: clamp(21px,3.5vw,42px);
+    font-weight: 400;
+    line-height: 57px;
+    max-width: 673px;
+    text-align: center;
+}
+
+.btn__second a img{
+  max-width: 306px;
+  max-height: 100px;  
+}
+.left__data h4{
+    color: var(--text-black);
+    font-size: clamp(14px,1.6vw,18px);
+    font-weight: 700;
+    line-height: 24px;
+    max-width: 478px;
+}
+.left__data ul{
+    list-style-type: none;
+}
+.left__data ul li{
+    color: var(--text-black);
+    font-size: clamp(12px,1.3vw,14px);
+    font-weight: 400;
+    line-height: 19px;
+    max-width: 549px;
+    margin: 30px 0px;
+}
+.slider__controller{
+    margin-top: 20px;
+    max-width: 410px;
+}
+.slider__controller img{
+    float: right;
+    margin-right: 15px;
+}
+.station__data{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.station__data .item span{
+    color: var(--text-grey);
+    font-size: clamp(8px,1.3vw,14px);
+    font-weight: 400;
+    line-height: 19px;
+}
+.station__data .item h4{
+    color: var(--text-black);
+    font-size: clamp(14px,1.3vw,18px);
+    font-weight: 700;
+    line-height: 24px;
+}
+.station__data .item p{
+    color: var(--text-grey);
+    font-size: clamp(8px,1.3vw,14px);
+    font-weight: 400;
+    line-height: 19px;
+    max-width: 510px;
+}
+.station__data .item{
+    margin-top: 10px;
+}
+.station__img img{
+    max-width: 600px;
+    height: 730px;
+    object-fit: cover;
+    object-position: center;
+}
+footer{
+    background: url('/images/Rectangle\ 13.png') no-repeat center/cover fixed;
+    min-height: 730px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.payment h2{
+    color: var(--text-white);
+    font-size: clamp(18px,1.6vw,24px);
+    font-weight: 700;
+    line-height: 24px;
+    gap: 20px;
+}
+.payment form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.form__control{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.form__control label{
+    color: var(--text-white);
+    font-size: clamp(12px,1.3vw,14px);
+    font-weight: 400;
+    line-height: 19px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 5px 0px;
+}
+.form__control input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 2px 0px;
+    background: transparent;
+}
+.btn__footer{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn__footer img{
+    max-width: 193px;
+    max-height: 100px;
+}
+.contact__info h2{
+    color: var(--text-white);
+    font-size: clamp(18px,1.6vw,24px);
+    font-weight: 700;
+    line-height: 24px;
+}
+.form__data ul{
+    list-style: none;
+    padding: 0;
+    width: 600px;
+}
+.form__data ul li{
+    margin-top: 30px;
+    line-height: 24px;
+
+}
+.form__data ul li p{
+    color: var(--text-white);
+    font-size: clamp(14px,1.6vw,18px);
+    font-weight: 400;
+    line-height: 24px;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 100px;
+
+}
+.footer__bottom p{
+    font-size: 14px;
+    color: var(--text-white);
+    line-height: 16px;
+    font-weight: 400;
+}
+.footer__bottom img{
+    margin-left: 20px;
+}
+.btn__up{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    right: 10%;
+    bottom: 1%;
+    left: 94%;
+    font-size: 22px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(8, 25, 255);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0px 2px 10px rgb(8, 25, 255);
+    animation: animateBox linear 1s infinite;
+
+}
+@keyframes animateBox {
+    form{
+        box-shadow:0px 2px 20px rgb(0, 17, 249); ;
+    }
+    to{
+        box-shadow:0px 5px 35px rgb(0, 17, 249); ;
+    }
+}
